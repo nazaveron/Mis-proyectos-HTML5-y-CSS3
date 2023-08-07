@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0; /* Margin y padding en 0 es para normalizar los bordes y eso. que no queden espacios */
+    background-image: url(./oficina_fondo.jpg);
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+  
+h1 {
+    text-align: center;
+    color: #121c1c;
+  }
+  
+  .container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255, 255, 255, 0.904);
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  .search {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  
+  form {
+    display: flex;
+  }
+  
+  input {
+    padding: 15px 10px;
+    outline: none;
+    width: 400px;
+  }
+  
+  .li-container {
+    width: 100%;
+    color: #0d1212;
+    margin-top: 20px;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  li {
+    list-style: none;
+    background-color: lightgray;
+    border-radius: 10px;
+    margin-top: 15px;
+    display: flex;
+  }
+  
+  li p {
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+  }
+  
+  .btn-delete {
+    margin-left: auto;
+    border: none;
+    background-color: #353132;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    outline: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 10%;
+    font-size: 1.2em;
+  }
+  
+  .btn-delete:hover {
+    cursor: pointer;
+    background-color: rgb(178, 37, 32);
+  }
+  
+  .btn-add {
+    padding: 5px 15px;
+    border: none;
+    color: white;
+    font-family: fantasy;
+    background-color: teal;
+    font-size: 1.4rem;
+    outline: none;
+    
+  }
+  
+  .btn-add:hover {
+    cursor: pointer;
+    background-color: rgba(120, 201, 238, 0.637);
+  }
+  
+  .empty {
+    color: darkslategrey;
+  }
