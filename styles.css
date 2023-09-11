@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    padding: 0; /* Margin y padding en 0 es para normalizar los bordes y eso. que no queden espacios */
+    padding: 0;
     background-image: url(./oficina_fondo.jpg);
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
